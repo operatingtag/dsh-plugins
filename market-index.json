@@ -25,12 +25,12 @@
       },
       "versions": [
         {
-          "version": "1.0.0",
-          "publishTimestamp": 1793949553,
+          "version": "1.0.1",
+          "publishTimestamp": 1793949757,
           "source": {
             "type": "git",
             "url": "https://github.com/operatingtag/dsh-plugins",
-            "commit": "af9ad07c83e3a42e22c19a7cb670b534e368dc48",
+            "commit": "2d945b50bf7ae63732f6c13e5040c3a21527324c",
             "path": "dsh-installed-first"
           }
         }
@@ -54,11 +54,11 @@
       "versions": [
         {
           "version": "1.2.0",
-          "publishTimestamp": 1793949553,
+          "publishTimestamp": 1793949757,
           "source": {
             "type": "git",
             "url": "https://github.com/operatingtag/dsh-plugins",
-            "commit": "af9ad07c83e3a42e22c19a7cb670b534e368dc48",
+            "commit": "2d945b50bf7ae63732f6c13e5040c3a21527324c",
             "path": "dsh-text-size-tuner"
           }
         }
