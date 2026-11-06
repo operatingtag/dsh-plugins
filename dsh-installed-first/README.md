@@ -43,10 +43,10 @@ Before / after: the **Bundles** heading moves from the bottom of the panel to th
 
 ### From a checkout
 
-```powershell
-# in the Harness profile, from the package directory
-dsh plugin install ./dsh-installed-first
-```
+In the Harness Plugin Manager, use **Add plugin** and enter the absolute path of
+this directory. The plugin manager links the checkout into the profile, which is
+how development installs work; reinstall it from the market later if you prefer a
+pinned copy.
 
 ## How it works
 
