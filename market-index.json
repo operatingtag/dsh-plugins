@@ -26,24 +26,24 @@
       "versions": [
         {
           "version": "1.0.0",
-          "publishTimestamp": 1793949347,
+          "publishTimestamp": 1793949553,
           "source": {
             "type": "git",
             "url": "https://github.com/operatingtag/dsh-plugins",
-            "commit": "c7800fb3b9ae4431339205faa323a80e0b874e9f",
+            "commit": "af9ad07c83e3a42e22c19a7cb670b534e368dc48",
             "path": "dsh-installed-first"
           }
         }
       ]
     },
     {
-      "name": "@local/text-size-tuner",
+      "name": "dsh-text-size-tuner",
       "title": "Text size tuner",
-      "description": "Floating text-size control panel for the Harness canvas.",
+      "description": "Floating sliders that enlarge conversation, code, and terminal text in DeepSeek Harness without leaving the canvas.",
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij4KICA8cmVjdCB4PSIyIiB5PSIyIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHJ4PSIxNiIgZmlsbD0iIzI0N2JiZiIvPgogIDxwYXRoIGQ9Ik0xNCA0NCBMMjMgMjAgaDQgbDkgMjQgaC00LjYgbC0yLjItNi40IGgtOC40IEwxOC42IDQ0IFogTTIwLjIgMzQgaDcuNiBMMjQgMjQuMiBaIiBmaWxsPSIjZmZmIi8+CiAgPHBhdGggZD0iTTQwLjUgNDQuNWMtMy42IDAtNS42LTIuMi01LjYtNS40IDAtMy44IDIuOC01LjcgNy4xLTUuN2gzLjJ2LTFjMC0xLjktMS4yLTMtMy41LTMtMiAwLTMuMy45LTMuNiAyLjRoLTMuM2MuNC0zLjIgMy4xLTUuMiA3LTUuMiA0LjMgMCA2LjkgMi4yIDYuOSA1Ljl2MTEuNmgtMy40di0yLjJjLTEuMSAxLjctMi45IDIuNi00LjggMi42Wm0xLTIuN2MyLjMgMCAzLjktMS41IDMuOS0zLjZ2LTEuM2gtMi44Yy0yLjUgMC0zLjggMS0zLjggMi43IDAgMS4zIDEgMi4yIDIuNyAyLjJaIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIwLjkyIi8+Cjwvc3ZnPgo=",
       "repository": {
         "url": "https://github.com/operatingtag/dsh-plugins",
-        "directory": "text-size-tuner"
+        "directory": "dsh-text-size-tuner"
       },
       "metadata": {
         "keywords": [
@@ -53,13 +53,13 @@
       },
       "versions": [
         {
-          "version": "1.1.0",
-          "publishTimestamp": 1793949347,
+          "version": "1.2.0",
+          "publishTimestamp": 1793949553,
           "source": {
             "type": "git",
             "url": "https://github.com/operatingtag/dsh-plugins",
-            "commit": "c7800fb3b9ae4431339205faa323a80e0b874e9f",
-            "path": "text-size-tuner"
+            "commit": "af9ad07c83e3a42e22c19a7cb670b534e368dc48",
+            "path": "dsh-text-size-tuner"
           }
         }
       ]
