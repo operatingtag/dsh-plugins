@@ -16,6 +16,7 @@ Plugin bundles for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-ha
 | Package | Directory | What it does |
 |---|---|---|
 | `dsh-installed-first` | [`dsh-installed-first/`](dsh-installed-first/) | Moves your installed bundles above the built-in groups in the Plugins panel. |
+| `dsh-text-size-tuner` | [`dsh-text-size-tuner/`](dsh-text-size-tuner/) | Floating `Aa` panel that enlarges conversation, code, and terminal text from the session header. |
 
 Each plugin directory has its own README with the problem it solves, how it works,
 and its caveats.
@@ -39,7 +40,7 @@ list, in the Plugins panel, and on npm.
 ```
 .
 ├── dsh-installed-first/     # one bundle: package.json + client.js + cordis.patch.yml
-├── text-size-tuner/         # pre-convention bundle (kept for compatibility)
+├── dsh-text-size-tuner/     # one bundle: header trigger + floating panel
 ├── market/
 │   ├── build-index.mjs      # regenerates market-index.json from every bundle
 │   ├── validate-index.mjs   # checks the format-1 rules locally

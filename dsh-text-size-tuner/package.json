@@ -1,0 +1,29 @@
+{
+  "name": "dsh-text-size-tuner",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Floating sliders that enlarge conversation, code, and terminal text in DeepSeek Harness without leaving the canvas.",
+  "keywords": ["dsh", "dsh-plugin", "accessibility", "font-size", "text-size", "ui"],
+  "homepage": "https://github.com/operatingtag/dsh-plugins/tree/master/dsh-text-size-tuner",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/operatingtag/dsh-plugins.git",
+    "directory": "dsh-text-size-tuner"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["README.md", "index.js", "client.js", "cordis.patch.yml", "locale/*.json", "icon.svg"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-ui-theme"]
+    }
+  }
+}

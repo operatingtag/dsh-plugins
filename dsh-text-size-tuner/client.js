@@ -1,11 +1,11 @@
-window.__ModuleLoader__.load({
-  id: '@local/text-size-tuner',
+﻿window.__ModuleLoader__.load({
+  id: 'dsh-text-size-tuner',
   factory(require) {
     const React = require('react');
     const h = React.createElement;
 
-    const NS = 'text-size-tuner';
-    const STYLE_ID = '@local/text-size-tuner/panel.css';
+    const NS = 'dsh-text-size-tuner';
+    const STYLE_ID = 'dsh-text-size-tuner/panel.css';
 
     /** Font roles the Harness theme service persists, with their supported ranges. */
     const SPECS = [
@@ -43,7 +43,7 @@ window.__ModuleLoader__.load({
     function mountStyles() {
       if (document.querySelector(`style[data-plugin-css="${STYLE_ID}"]`) !== null) return undefined;
       const tag = document.createElement('style');
-      tag.dataset.plugin = '@local/text-size-tuner';
+      tag.dataset.plugin = 'dsh-text-size-tuner';
       tag.dataset.pluginCss = STYLE_ID;
       tag.textContent = CSS;
       document.head.appendChild(tag);
@@ -83,7 +83,7 @@ window.__ModuleLoader__.load({
     }
 
     function apply(ctx) {
-      ctx.effect(mountStyles, 'text-size-tuner: panel stylesheet');
+      ctx.effect(mountStyles, 'dsh-text-size-tuner: panel stylesheet');
       ctx.effect(
         () => ctx.locale.register(NS, {
           en: {
@@ -99,17 +99,17 @@ window.__ModuleLoader__.load({
           },
           zh: {
             panel: {
-              title: '文字大小',
-              button: '文字大小控制',
-              text: '对话',
-              code: '代码',
-              terminal: '终端',
-              reset: '重置',
-              hint: '自动保存',
+              title: 'æ–‡å­—å¤§å°',
+              button: 'æ–‡å­—å¤§å°æŽ§åˆ¶',
+              text: 'å¯¹è¯',
+              code: 'ä»£ç ',
+              terminal: 'ç»ˆç«¯',
+              reset: 'é‡ç½®',
+              hint: 'è‡ªåŠ¨ä¿å­˜',
             },
           },
         }),
-        'text-size-tuner: panel dictionaries',
+        'dsh-text-size-tuner: panel dictionaries',
       );
 
       const t = ctx.locale.bind(NS);
@@ -125,7 +125,7 @@ window.__ModuleLoader__.load({
           listeners.clear();
           if (typeof dispose === 'function') dispose();
         };
-      }, 'text-size-tuner: theme subscription');
+      }, 'dsh-text-size-tuner: theme subscription');
 
       /** Re-render on store changes. */
       function useUi() {
@@ -210,7 +210,7 @@ window.__ModuleLoader__.load({
             try {
               theme.setFontSize(role, px);
             } catch (error) {
-              console.warn('[text-size-tuner]', error);
+              console.warn('[dsh-text-size-tuner]', error);
             }
           }, 140);
         };
@@ -225,7 +225,7 @@ window.__ModuleLoader__.load({
             try {
               theme.setFontSize(spec.role, spec.def);
             } catch (error) {
-              console.warn('[text-size-tuner]', error);
+              console.warn('[dsh-text-size-tuner]', error);
             }
           }
         };
@@ -271,14 +271,14 @@ window.__ModuleLoader__.load({
 
       ctx.slots.inject('conversation.session.header.utilities', () => ctx.slots.register({
         name: 'conversation.session.header.utilities',
-        id: 'text-size-tuner',
+        id: 'dsh-text-size-tuner',
         order: 10,
         label: () => t('panel.button'),
       }, Trigger));
 
       ctx.slots.inject('shell.overlay', () => ctx.slots.register({
         name: 'shell.overlay',
-        id: 'text-size-tuner.panel',
+        id: 'dsh-text-size-tuner.panel',
         order: 20,
       }, Panel));
     }
