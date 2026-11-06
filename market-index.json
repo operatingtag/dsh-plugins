@@ -9,13 +9,13 @@
   },
   "plugins": [
     {
-      "name": "@local/installed-first",
+      "name": "dsh-installed-first",
       "title": "Installed plugins first",
-      "description": "Puts the installed plugin bundles above the built-in groups in the Plugins panel.",
+      "description": "Lists your installed DSH plugin bundles above the built-in groups in the Plugins panel.",
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij4KICA8cmVjdCB4PSIyIiB5PSIyIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHJ4PSIxNiIgZmlsbD0iIzNiNmVhNSIvPgogIDxyZWN0IHg9IjE0IiB5PSIzOCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjYiIHJ4PSIyIiBmaWxsPSIjZmZmIi8+CiAgPHJlY3QgeD0iMTQiIHk9IjQ3IiB3aWR0aD0iMTgiIGhlaWdodD0iNiIgcng9IjIiIGZpbGw9IiNmZmYiIG9wYWNpdHk9IjAuNTUiLz4KICA8cGF0aCBkPSJNNDAgNDAgTDQwIDIyIE0zMyAyOSBMNDAgMjEgTDQ3IDI5IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iNC41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==",
       "repository": {
         "url": "https://github.com/operatingtag/dsh-plugins",
-        "directory": "installed-first"
+        "directory": "dsh-installed-first"
       },
       "metadata": {
         "keywords": [
@@ -26,12 +26,12 @@
       "versions": [
         {
           "version": "1.0.0",
-          "publishTimestamp": 1793948990,
+          "publishTimestamp": 1793949347,
           "source": {
             "type": "git",
             "url": "https://github.com/operatingtag/dsh-plugins",
-            "commit": "00da7418a895b14ce3d9daffb34d53aaaedd4fbd",
-            "path": "installed-first"
+            "commit": "c7800fb3b9ae4431339205faa323a80e0b874e9f",
+            "path": "dsh-installed-first"
           }
         }
       ]
@@ -54,11 +54,11 @@
       "versions": [
         {
           "version": "1.1.0",
-          "publishTimestamp": 1793948990,
+          "publishTimestamp": 1793949347,
           "source": {
             "type": "git",
             "url": "https://github.com/operatingtag/dsh-plugins",
-            "commit": "00da7418a895b14ce3d9daffb34d53aaaedd4fbd",
+            "commit": "c7800fb3b9ae4431339205faa323a80e0b874e9f",
             "path": "text-size-tuner"
           }
         }
