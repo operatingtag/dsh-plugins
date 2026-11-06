@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "title": "文字大小调节",
+    "description": "悬浮滑块，无需离开画布即可放大对话、代码与终端文字。"
+  },
+  "panel": {
+    "title": "文字大小",
+    "button": "文字大小控制",
+    "preview": "预览",
+    "text": "对话",
+    "code": "代码",
+    "terminal": "终端",
+    "reset": "重置",
+    "hint": "自动保存",
+    "expand": "打开文字大小控制",
+    "collapse": "关闭文字大小控制"
+  }
+}

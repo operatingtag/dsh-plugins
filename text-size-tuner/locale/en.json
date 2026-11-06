@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "title": "Text size tuner",
+    "description": "Floating sliders that enlarge conversation, code, and terminal text without leaving the canvas."
+  },
+  "panel": {
+    "title": "Text size",
+    "button": "Text size controls",
+    "preview": "Preview",
+    "text": "Conversation",
+    "code": "Code",
+    "terminal": "Terminal",
+    "reset": "Reset",
+    "hint": "Saved automatically",
+    "expand": "Open text size controls",
+    "collapse": "Close text size controls"
+  }
+}
