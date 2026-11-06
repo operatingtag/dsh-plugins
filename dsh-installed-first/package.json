@@ -1,28 +1,43 @@
-{
-  "name": "dsh-installed-first",
-  "version": "1.0.0",
-  "private": true,
-  "type": "module",
-  "description": "Lists your installed DSH plugin bundles above the built-in groups in the Plugins panel.",
-  "keywords": ["dsh", "dsh-plugin", "plugins", "panel", "order"],
-  "homepage": "https://github.com/operatingtag/dsh-plugins/tree/master/dsh-installed-first",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/operatingtag/dsh-plugins.git",
-    "directory": "dsh-installed-first"
-  },
-  "exports": {
-    ".": "./index.js",
-    "./client": "./client.js",
-    "./locale/*.json": "./locale/*.json",
-    "./icon": "./icon.svg"
-  },
-  "files": ["README.md", "index.js", "client.js", "cordis.patch.yml", "locale/*.json", "icon.svg"],
-  "dsh": {
-    "bundle": { "patch": "./cordis.patch.yml" },
-    "client": {
-      "platform": "web",
-      "immediately": true
-    }
-  }
+﻿{
+    "name":  "dsh-installed-first",
+    "version":  "1.0.1",
+    "private":  true,
+    "type":  "module",
+    "description":  "Lists your installed DSH plugin bundles above the built-in groups in the Plugins panel.",
+    "keywords":  [
+                     "dsh",
+                     "dsh-plugin",
+                     "plugins",
+                     "panel",
+                     "order"
+                 ],
+    "homepage":  "https://github.com/operatingtag/dsh-plugins/tree/master/dsh-installed-first",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/operatingtag/dsh-plugins.git",
+                       "directory":  "dsh-installed-first"
+                   },
+    "exports":  {
+                    ".":  "./index.js",
+                    "./client":  "./client.js",
+                    "./locale/*.json":  "./locale/*.json",
+                    "./icon":  "./icon.svg"
+                },
+    "files":  [
+                  "README.md",
+                  "index.js",
+                  "client.js",
+                  "cordis.patch.yml",
+                  "locale/*.json",
+                  "icon.svg"
+              ],
+    "dsh":  {
+                "bundle":  {
+                               "patch":  "./cordis.patch.yml"
+                           },
+                "client":  {
+                               "platform":  "web",
+                               "immediately":  true
+                           }
+            }
 }
